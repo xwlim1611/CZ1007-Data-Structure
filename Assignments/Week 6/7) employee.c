@@ -122,12 +122,6 @@ int addEmployee(Employee *emp, int size, char *target)
             return size;
         }
 
-        int i=0;
-        for(i=0;i<size;i++)
-        {
-           if(strcmp(target,(emp+i)->name)==0)
-            return ;
-        }
         strcpy(newEmployee.name,target);
         printf("Enter tel:\n");
         scanf("%s",newEmployee.telno);
