@@ -82,7 +82,7 @@ int readin(Employee *emp)
     {
         printf("Enter name:\n");
         scanf("\n");
-        scanf("%s", &(emp->name));
+        gets(emp->name);
         strcpy(temp,emp->name);
         if(temp[0]=='#')
             break;
