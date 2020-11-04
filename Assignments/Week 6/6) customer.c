@@ -27,7 +27,7 @@ int main()
 void nextCustomer(struct account *acct)
 {
  /* Write your code here */
- printf("Enter name (firstName lastName):\n");
+ printf("Enter names (firstName lastName):\n");
  scanf("%s %s", &(acct->names.firstName), &(acct->names.lastName));
 
  if ((strcmp(acct->names.firstName, "End") != 0) && (strcmp(acct->names.lastName, "Customer") != 0))
